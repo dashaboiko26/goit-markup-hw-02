@@ -43,9 +43,6 @@ span {
 }
 
 .main-section-btn {
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
   background: #4d5ae5;
   font-weight: 500;
   line-height: 1.5;
@@ -61,7 +58,6 @@ span {
   clip-path: inset(50%);
   height: 1px;
   overflow: hidden;
-  position: absolute;
   white-space: nowrap;
   width: 1px;
 }
