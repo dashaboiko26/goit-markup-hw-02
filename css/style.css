@@ -76,7 +76,9 @@ ul {
   background-color: #f4f4fd;
 }
 
-h2 {
+/* portfolio */
+.section-title {
+  text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.02em;
@@ -84,7 +86,7 @@ h2 {
   text-align: center;
   color: #2e2f42;
 }
-/* portfolio */
+
 h3 {
   font-weight: 500;
   font-size: 20px;
@@ -93,7 +95,7 @@ h3 {
   color: #2e2f42;
 }
 
-p {
+.section-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
