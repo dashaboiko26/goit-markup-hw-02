@@ -28,13 +28,18 @@ span {
   background-color: #2e2f42;
 }
 
-h1 {
+.main-section-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.08;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+}
+.main-section-btn:hover,
+.main-section-btn:focus,
+.main-section-btn:active {
+  color: #404bbf;
 }
 
 .main-section-btn {
@@ -48,6 +53,7 @@ h1 {
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
 }
 
 .visually-hidden {
