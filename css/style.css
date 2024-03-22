@@ -1,19 +1,21 @@
 body {
-  font-family: "Roboto";
-  color: #fff;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 .logo {
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.07;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
 }
 
 span {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .header-menu-link:hover,
@@ -36,12 +38,10 @@ h1 {
 }
 
 .main-section-btn {
-  border-radius: 4px;
   padding: 16px 32px;
   width: 169px;
   height: 56px;
   background: #4d5ae5;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   font-weight: 500;
   line-height: 1.5;
   font-size: 16px;
@@ -113,6 +113,10 @@ footer {
   line-height: 1.5;
 }
 .footer-logo {
-  color: #f4f4fd;
+  color: #4d5ae5;
   line-height: 1.17;
+  font-family: "Raleway", sans-serif;
+}
+.footer-logo-2 {
+  color: #f4f4fd;
 }
