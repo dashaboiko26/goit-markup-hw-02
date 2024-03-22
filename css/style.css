@@ -53,12 +53,6 @@ span {
   font-family: "Roboto", sans-serif;
 }
 
-.visually-hidden {
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  overflow: hidden;
-  white-space: nowrap;
-}
 a {
   text-decoration: none;
   font-weight: 400;
@@ -70,6 +64,14 @@ a {
 
 ul {
   list-style: none;
+}
+/* features */
+.features-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 /* team */
 .team-section {
