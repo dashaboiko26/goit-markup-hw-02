@@ -39,7 +39,7 @@ span {
 .main-section-btn:hover,
 .main-section-btn:focus,
 .main-section-btn:active {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 .main-section-btn {
@@ -76,12 +76,20 @@ a {
 
 ul {
   list-style: none;
+  background-color: #ffffff;
 }
 /* team */
 .team-section {
   background-color: #f4f4fd;
 }
 
+.team-section-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
 /* portfolio */
 .section-title {
   text-transform: capitalize;
@@ -90,14 +98,6 @@ ul {
   letter-spacing: 0.02em;
   line-height: 1.11;
   text-align: center;
-  color: #2e2f42;
-}
-
-h3 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
