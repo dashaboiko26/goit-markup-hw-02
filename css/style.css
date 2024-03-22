@@ -70,13 +70,15 @@ a {
 
 ul {
   list-style: none;
-  background-color: #ffffff;
 }
 /* team */
 .team-section {
   background-color: #f4f4fd;
 }
 
+.team-list {
+  background-color: #ffffff;
+}
 .team-section-title {
   font-weight: 500;
   font-size: 20px;
